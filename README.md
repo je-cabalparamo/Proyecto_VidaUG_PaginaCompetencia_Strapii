@@ -1,0 +1,1 @@
+# Proyecto_VidaUG_PaginaCompetencia_Strapii
