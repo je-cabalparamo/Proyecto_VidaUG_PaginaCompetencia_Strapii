@@ -1,0 +1,22 @@
+>Para conectar la base de datos a la API, requerira correr el siguiente codigo dentro de su
+MySQL Worckbench:
+
+ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password 
+BY "Escriba su Contraseña de su MySQL"; flush privilages;
+
+
+>Dentro de los archivos de la API, encontrara un archivo ".env" en este tendra que modificar 
+el campo de DATABASE_PASSWORD a su contraseña de su MySQL
+
+>La base de datos que se va importar al Workbench es el archivo "Dump20221003.sql"
+
+>para acceder a la API localhost:1337 debera correrlo dentro de la terminal con el codigo npm
+run develop
+
+>para entrar a Strapi requerira usar los siguientes campos:
+ca.martinezpaniagua@ugto.mx
+vidaUG123
+
+>El diseño y base de este proyecto, lo basamos de este playlist:
+https://www.youtube.com/playlist?list=PLIbWwxXce3VoAlyx42u7A-4yVYgT-pULk
+
